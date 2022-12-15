@@ -1,0 +1,136 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+
+}
+
+.intro_bg {
+    background-image: url("../image/intro.jpg");
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.header {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 86px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: 1280px;
+    color: black;
+    margin-right: 30px;
+}
+
+.nav > li {
+    margin-left: 84px;
+
+}
+
+.nav > li > a {
+    color: black;
+}
+
+.intro_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro_text { 
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
+
+.intro_text > h1 {
+    font-size: 48px;
+
+}
+
+.intro_text > h1,
+.intro_text > h4 {
+    color:white;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+}
+
+#profile-picture {
+    width: 300px;
+    height: 600px;
+    margin-right: 60px;
+    margin-left: 160px;
+    border-radius:  20px;
+
+    position: absolute;
+    
+}
+
+.introduction {
+    justify-content: bottom;
+    left: 300px;
+    bottom: 300px;
+    margin-left: 600px;
+    
+
+}
+
+.introduction > h2 {
+    margin: 0px;
+    font-size: 35px;
+}
+
+.introduction > p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: honeydew;
+}
+
+.movie-1 {
+    margin-left: 230px;
+    margin-top: -50px;
+
+}
+
+.login-box {
+   margin-top: 200px;
+   margin-left: -1000px;
+}
+
+#signup-form {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-left: 540px;
+}
+
+#form-box {
+    padding-top: 30px;
+
+}
